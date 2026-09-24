@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0d">
+  <meta name="description" content="Edward 的互动个人空间：AI 学习、项目、摄影与成长记录。">
+  <title>Edward — The Open Room</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <div id="loading" class="loading-screen"><div class="loading-mark">✳</div><p>正在打开 Edward 的空间</p><span id="loading-progress">0%</span></div>
+  <main id="experience" aria-label="Edward 的互动个人空间">
+    <canvas id="scene" aria-hidden="true"></canvas>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="hud hud-top"><a class="brand" href="./" aria-label="回到入口"><span>EDWARD</span><small>THE OPEN ROOM</small></a><div class="hud-status"><i></i><span id="room-label">入口</span><span class="slash">/</span><span id="room-index">00</span></div></div>
+    <div class="intro-copy" id="intro-copy"><p class="eyebrow">A PERSONAL SPACE BY EDWARD</p><h1>Edward 的<br><em>开放房间。</em></h1><p class="intro-text">AI 学习、个人项目、摄影和成长记录，都在这里慢慢生长。</p><button class="enter-button" id="enter-button" type="button"><span>进入空间</span><b aria-hidden="true">↗</b></button></div>
+    <div class="door-hint" id="door-hint"><span class="hint-key">拖动 / 滑动</span><span>探索走廊</span></div>
+    <nav class="room-nav" aria-label="房间导航" id="room-nav"></nav>
+    <div class="room-card" id="room-card" hidden><div class="card-top"><span id="card-number">01</span><button id="card-close" type="button" aria-label="关闭房间">关闭 <b aria-hidden="true">×</b></button></div><div id="card-content"></div></div>
+    <div class="hud hud-bottom"><span>EDWARD / 2026</span><span>SCROLL OR DRAG TO WALK</span><a href="../">简洁版 ↗</a></div>
+  </main>
+  <noscript><div class="no-script">这个互动空间需要启用 JavaScript。你也可以访问 <a href="../">简洁版作品集</a>。</div></noscript>
+</body>
+</html>

@@ -1,0 +1,121 @@
+{
+  "rooms": [
+    {
+      "id": "about",
+      "label": "关于我",
+      "short": "ABOUT",
+      "number": "01",
+      "title": "未来守护者",
+      "kicker": "ABOUT EDWARD",
+      "body": "你好，我是 Edward，也叫「未来守护者」。\n\n一个 AI 中毒患者、摄影爱好者，也是自由职业者。这里是我的个人空间：用新工具打开想象，也用镜头留住日常。",
+      "tags": ["AI 实验", "摄影记录", "自由创作"],
+      "accent": "#d9fa72"
+    },
+    {
+      "id": "ai",
+      "label": "AI 学习室",
+      "short": "AI LAB",
+      "number": "02",
+      "title": "正在学习如何与 AI 一起创造",
+      "kicker": "AI / NOTES / EXPERIMENTS",
+      "body": "AI 对我来说不是一个遥远的工具，而是一种新的思考方式。\n\n我会把这里当作实验室，记录提示词、工作流、模型体验和那些还没有答案的问题。每一次尝试，都是在给未来留一盏灯。",
+      "list": [
+        ["当前研究", "AI 工作流与个人创作"],
+        ["正在练习", "把想法说清楚，再把它做出来"],
+        ["持续关注", "生成式影像 / Agent / 人机协作"],
+        ["状态", "OPEN TO DISCOVERY"]
+      ],
+      "entries": [
+        {
+          "date": "NOW",
+          "title": "建立自己的 AI 工作流",
+          "summary": "把灵感、资料、提示词和复盘放进同一套可重复的流程里。",
+          "status": "进行中"
+        },
+        {
+          "date": "NEXT",
+          "title": "把学习变成可见的作品",
+          "summary": "每一次模型体验都留下一个小实验，持续记录有效的方法和失败的原因。",
+          "status": "下一步"
+        }
+      ],
+      "accent": "#9bb7ff"
+    },
+    {
+      "id": "projects",
+      "label": "项目展厅",
+      "short": "PROJECTS",
+      "number": "03",
+      "title": "把想法做成可以被看见的东西",
+      "kicker": "SELECTED PROJECTS",
+      "body": "这里放已经完成、正在进行，或者值得继续追踪的项目。\n\n从个人网站到 AI 实验，我更在意一个想法如何慢慢变成真实的体验。",
+      "list": [
+        ["01", "Edward Personal Space", "已上线"],
+        ["02", "AI Creative Workbench", "实验中"],
+        ["03", "下一件作品", "寻找方向"]
+      ],
+      "entries": [
+        {
+          "date": "01",
+          "title": "Edward Personal Space",
+          "summary": "一个可以持续更新的个人网站，把 AI 学习、项目、摄影和成长放在同一个空间里。",
+          "status": "已上线",
+          "url": "../"
+        },
+        {
+          "date": "02",
+          "title": "AI Creative Workbench",
+          "summary": "正在搭建的个人实验台，用来整理工具、提示词和从想法到成品的过程。",
+          "status": "实验中"
+        }
+      ],
+      "accent": "#ff9e6a"
+    },
+    {
+      "id": "visuals",
+      "label": "摄影与影像",
+      "short": "VISUALS",
+      "number": "04",
+      "title": "镜头内外，都是我",
+      "kicker": "PHOTOGRAPHY / MOTION",
+      "body": "有些时刻不需要解释，只需要留下。\n\n这是我的影像房间，收集照片、短片和那些在路上遇见的光。",
+      "media": [
+        ["../assets/edward-lanterns.webp", "灯火之间"],
+        ["../assets/edward-night.webp", "夜色随行"],
+        ["../assets/edward-mirror.webp", "镜中片刻"]
+      ],
+      "video": "../assets/edward-film.webm",
+      "accent": "#ffcf7b"
+    },
+    {
+      "id": "growth",
+      "label": "成长记录",
+      "short": "JOURNAL",
+      "number": "05",
+      "title": "还在路上",
+      "kicker": "LEARNING IN PUBLIC",
+      "body": "我想把成长留下来，而不是只展示结果。这里会记录正在读什么、学什么、做错了什么，以及下一步想走向哪里。",
+      "timeline": [
+        ["NOW", "AI 与个人创作", "建立自己的工具箱与工作流。"],
+        ["NEXT", "把学习变成作品", "让每一次尝试都能留下一个可见的结果。"],
+        ["ALWAYS", "保持好奇", "继续拍照，继续提问，继续动手。"]
+      ],
+      "accent": "#d3a8ff"
+    },
+    {
+      "id": "contact",
+      "label": "联系我",
+      "short": "CONTACT",
+      "number": "06",
+      "title": "一起做点有意思的事",
+      "kicker": "LET'S CONNECT",
+      "body": "如果你也在探索 AI、影像或新的创作方式，欢迎来聊聊。\n\n联系邮箱还没放上来，等你准备好后，可以在 v1 的本机编辑器里填入，之后这里也会同步。",
+      "list": [
+        ["网站", "edward-personal-site"],
+        ["状态", "AVAILABLE FOR IDEAS"],
+        ["时间", "2026 — NOW"]
+      ],
+      "accent": "#83e4ca"
+    }
+  ]
+}

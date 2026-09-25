@@ -9,7 +9,8 @@
       "kicker": "ABOUT EDWARD",
       "body": "你好，我是 Edward，也叫「未来守护者」。\n\n一个 AI 中毒患者、摄影爱好者，也是自由职业者。这里是我的个人空间：用新工具打开想象，也用镜头留住日常。",
       "tags": ["AI 实验", "摄影记录", "自由创作"],
-      "accent": "#d9fa72"
+      "accent": "#d9fa72",
+      "doorHint": "走近这扇门，认识门后的 Edward。"
     },
     {
       "id": "ai",
@@ -39,7 +40,8 @@
           "status": "下一步"
         }
       ],
-      "accent": "#9bb7ff"
+      "accent": "#9bb7ff",
+      "doorHint": "推开这扇门，进入正在生长的 AI 实验室。"
     },
     {
       "id": "projects",
@@ -69,7 +71,8 @@
           "status": "实验中"
         }
       ],
-      "accent": "#ff9e6a"
+      "accent": "#ff9e6a",
+      "doorHint": "这里藏着把想法做成作品的过程。"
     },
     {
       "id": "visuals",
@@ -85,7 +88,8 @@
         ["../assets/edward-mirror.webp", "镜中片刻"]
       ],
       "video": "../assets/edward-film.webm",
-      "accent": "#ffcf7b"
+      "accent": "#ffcf7b",
+      "doorHint": "门后有照片、短片，还有路上遇见的光。"
     },
     {
       "id": "growth",
@@ -100,7 +104,8 @@
         ["NEXT", "把学习变成作品", "让每一次尝试都能留下一个可见的结果。"],
         ["ALWAYS", "保持好奇", "继续拍照，继续提问，继续动手。"]
       ],
-      "accent": "#d3a8ff"
+      "accent": "#d3a8ff",
+      "doorHint": "每一次推门，都是一次继续向前的记录。"
     },
     {
       "id": "contact",
@@ -115,7 +120,8 @@
         ["状态", "AVAILABLE FOR IDEAS"],
         ["时间", "2026 — NOW"]
       ],
-      "accent": "#83e4ca"
+      "accent": "#83e4ca",
+      "doorHint": "走到这里，留下一个想一起探索的线索。"
     }
   ]
 }

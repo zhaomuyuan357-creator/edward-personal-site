@@ -17,11 +17,14 @@
     <canvas id="scene" aria-hidden="true"></canvas>
     <div class="grain" aria-hidden="true"></div>
     <div class="hud hud-top"><a class="brand" href="./" aria-label="回到入口"><span>EDWARD</span><small>THE OPEN ROOM</small></a><div class="hud-status"><i></i><span id="room-label">入口</span><span class="slash">/</span><span id="room-index">00</span></div></div>
-    <div class="intro-copy" id="intro-copy"><p class="eyebrow">A PERSONAL SPACE BY EDWARD</p><h1>Edward 的<br><em>开放房间。</em></h1><p class="intro-text">AI 学习、个人项目、摄影和成长记录，都在这里慢慢生长。</p><button class="enter-button" id="enter-button" type="button"><span>进入空间</span><b aria-hidden="true">↗</b></button></div>
-    <div class="door-hint" id="door-hint"><span class="hint-key">拖动 / 滑动</span><span>探索走廊</span></div>
+    <div class="intro-copy" id="intro-copy"><p class="eyebrow">THE OPEN ROOM / START AT THE GATE</p><h1>从大门<br><em>走进我的世界。</em></h1><p class="intro-text">先推开入口大门，再沿走廊自由探索。靠近任意一扇房门，按 E 或点击，进入一个新的房间。</p><button class="enter-button" id="enter-button" type="button"><span>推开入口大门</span><b aria-hidden="true">↗</b></button></div>
+    <div class="door-hint" id="door-hint"><span class="hint-key">W A S D / 方向键</span><span>走近入口大门</span></div>
+    <div class="door-prompt" id="door-prompt" aria-live="polite" hidden><div class="prompt-copy"><span class="prompt-key" id="explore-hint">E / 点击</span><strong id="prompt-title">打开入口大门</strong><small id="prompt-detail">走近一点，开始探索</small></div><button class="door-action" id="door-action" type="button">打开 <b aria-hidden="true">↗</b></button></div>
+    <button class="exit-room" id="exit-room" type="button" hidden>← 返回走廊</button>
+    <div class="walk-hud" id="walk-hud" aria-label="第一人称探索操作"><div class="walk-hud-status"><span class="walk-state-dot" aria-hidden="true"></span><span id="walk-state">入口大厅 · 找到第一扇门</span></div><div class="walk-hud-title">FIRST PERSON WALK</div><div class="walk-controls"><span><kbd>W</kbd><kbd>↑</kbd> 前进</span><span><kbd>A</kbd><kbd>D</kbd> 左右移动</span><span><kbd>E</kbd> 开门</span></div><div class="walk-touch-tip">上下滑动前后移动，左右滑动转视角 · 点击门进入</div></div>
     <nav class="room-nav" aria-label="房间导航" id="room-nav"></nav>
     <div class="room-card" id="room-card" hidden><div class="card-top"><span id="card-number">01</span><button id="card-close" type="button" aria-label="关闭房间">关闭 <b aria-hidden="true">×</b></button></div><div id="card-content"></div></div>
-    <div class="hud hud-bottom"><span>EDWARD / 2026</span><span>SCROLL OR DRAG TO WALK</span><a href="../">简洁版 ↗</a></div>
+    <div class="hud hud-bottom"><span>EDWARD / 2026</span><span>WASD TO WALK · DRAG TO LOOK</span><a href="../">简洁版 ↗</a></div>
   </main>
   <noscript><div class="no-script">这个互动空间需要启用 JavaScript。你也可以访问 <a href="../">简洁版作品集</a>。</div></noscript>
 </body>
